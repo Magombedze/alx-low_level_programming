@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include<unistd.h>
+#include <stdio.h>
+#include <unistd.h>
 /**
    * Description: main - Prints out a string to stdout.
     * Return: 1 if success.
