@@ -14,7 +14,7 @@
 int main(void)
 {
 char = ch;
-chi = 'a';
+char = 'a';
 while (ch <= 'z')
 {
 putchar(ch);
