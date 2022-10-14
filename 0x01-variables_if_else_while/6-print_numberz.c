@@ -16,7 +16,7 @@ int main(void)
 
 {
 
-	int n = 48;
+	char n = 48;
 
 	while (n <= 57)
 
@@ -28,7 +28,7 @@ int main(void)
 
 	}
 
-	printf("\n");
+	putchar('\n');
 
 	return (0);
 
