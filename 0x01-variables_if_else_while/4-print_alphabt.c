@@ -21,17 +21,17 @@ int main(void)
 
 	{
 
-		if (lw == 'e' && lw == 'q')
+		if (lw == 'e' || lw == 'q')
 
 		{
 
-			continue;
+			lw += 1;
 
 		}
 
+		else
 
-
-
+		{
 
 			putchar(lw);
 
