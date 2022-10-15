@@ -12,7 +12,7 @@ int main(void)
 
 {
 
-int n;
+int n = 0;
 int lastn;
 
 lastn = n % 10;
