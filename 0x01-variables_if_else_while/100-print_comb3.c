@@ -16,7 +16,7 @@ int i;
 for (i = 48; i < 58; i++)
 {
 putchar(i);
-if (i > 48)
+if (i >= 49)
 {
 putchar(i);
 }
