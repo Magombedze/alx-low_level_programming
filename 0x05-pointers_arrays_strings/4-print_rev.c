@@ -5,36 +5,37 @@
 /**
  * print_rev - print a string
  * @s:pointer char
- * return:void
+ * return:string in reverse
 */
 
 void print_rev(char *s)
 
 {
 
-int i, len, temp;
+int fcounter = 0;
 
-len = strlen(s);
+int i, n;
 
 
 
-for (i = 0; i < len / 2; i++)
-
-{
-temp = s[i];
-
-s[i] = s[len - i - 1];
-
-s[len - i - 1] = temp;
+for (i = 0; s[i] != '\0'; i++)
 
 {
 
-_putchar(s[i]);
+fcounter++;
+
+}
+
+
+
+for (n = (fcounter - 1); n >= 0; n--)
+
+{
+
+_putchar(s[n]);
 
 }
 
 _putchar('\n');
-
-return;
 
 }
