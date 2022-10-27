@@ -3,38 +3,42 @@
 
 
 /**
- * _strncat - concatenates two strings
- * @dest:char dest
- * @src: char src
- * @n:length int
+ * _strncpy - copie a string
+ * @dest:char
+ *  @src:char
+ * @n:int
  * Return:char
-*/
+ */
 
-char *_strncat(char *dest, char *src, int n)
-
-{
-
-int i, j;
-
-
-
-for (i = 0; dest[i] != '\0'; i++)
+char *_strncpy(char *dest, char *src, int n)
 
 {
 
-continue;
+int i;
+
+
+
+i = 0;
+
+while (i < n && *(src + i))
+
+{
+
+*(dest + i) = *(src + i);
+
+i++;
 
 }
 
-for (j = 0; src[j] != '\0' && j < n; j++)
+while (i < n)
 
 {
 
-dest[i + j] = src[j];
+*(dest + i) = '\0';
+
+i++;
 
 }
-
-dest[i + j] = '\0';
 
 return (dest);
 
