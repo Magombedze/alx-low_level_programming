@@ -13,7 +13,7 @@
  * Description: No description for this struct
 */
 
-struct dog
+typedef struct dog
 
 {
 
@@ -23,7 +23,8 @@ struct dog
 
 	char *owner;
 
-};
+} dog dog_t;
+
 
 
 
