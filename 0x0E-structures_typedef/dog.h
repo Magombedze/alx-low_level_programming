@@ -4,13 +4,6 @@
 
 
 
-/**
- * dog_t - Typedef for struct dog
- */
-
- 
-
-
 
 /**
  * struct dog - struct that stores some information of a dog
